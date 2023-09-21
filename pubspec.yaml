@@ -2,7 +2,7 @@ name: travel
 description: A new Flutter project.
 publish_to: "none"
 
-version: 1.0.1+1
+version: 1.0.1+2
 
 environment:
   sdk: ">=2.19.2 <3.0.0"
@@ -14,7 +14,7 @@ dependencies:
   dio: ^5.0.1
   flutter:
     sdk: flutter
-  # flutter_launcher_icons: ^0.12.0
+  flutter_launcher_icons: ^0.12.0
   flutter_svg: ^2.0.2
   form_field_validator: ^1.1.0
   flutter_easyloading: ^3.0.5
@@ -31,17 +31,17 @@ dependencies:
   http: any
   crypto: ^3.0.3
   flutter_inappwebview: ^5.7.2+3
-  html: ^0.15.4
+  html: ^0.15.4  
 
 dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
 
-# flutter_icons:
-#   android: "launcher_icon"
-#   ios: true
-#   image_path: "assets/images/logo.png"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
 
 flutter:
   uses-material-design: true
